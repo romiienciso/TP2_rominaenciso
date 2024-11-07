@@ -1,0 +1,157 @@
+/* Estilo general */
+body {
+    font-family: 'Georgia', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fffaf3; /* Fondo crema claro */
+    color: #4a4a4a; /* Gris suave */
+}
+
+/* Encabezado */
+header {
+    background-color: #f8d9e0; /* Rosa pastel suave */
+    color: #8b5c7e; /* Rosa malva */
+    padding: 40px;
+    text-align: center;
+    border-bottom: 5px solid #ffebeb; /* Rosa pálido */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 42px;
+    letter-spacing: 1px;
+}
+
+header h1 span {
+    color: #b4c7d3; /* Color complementario */
+}
+
+header p {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #6f4f4b; /* Gris oscuro */
+}
+
+/* Navegación */
+nav {
+    background-color: #fde2e4; /* Rosa claro */
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: inline-flex;
+    gap: 15px;
+}
+
+nav a {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #8b5c7e; /* Rosa malva */
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 20px;
+    background-color: #f8d9e0;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #fbcfe8; /* Rosa pastel más claro */
+}
+
+/* Cuadro de presentación */
+.presentation-box {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #fef6f9; /* Fondo blanco con toque rosado */
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.presentation-box h2 {
+    font-size: 30px;
+    color: #8b5c7e; /* Rosa malva */
+    margin-bottom: 15px;
+}
+
+.presentation-box p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #4a4a4a; /* Gris suave */
+}
+
+/* Tabla de empleados */
+.table-container {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fef6f9; /* Fondo blanco con toque rosado */
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    padding: 12px 20px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+table th {
+    background-color: #f8d9e0; /* Rosa pastel */
+    color: #8b5c7e;
+}
+
+table tr:nth-child(even) {
+    background-color: #f1e4e7; /* Fila intercalada */
+}
+
+/* Imágenes de empleados */
+.employee-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.employee {
+    background-color: #fef6f9; /* Fondo blanco */
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-bottom: 20px;
+    width: 250px;
+}
+
+.employee img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.employee-description {
+    font-size: 16px;
+    color: #6f4f4b; /* Gris oscuro */
+    margin-top: 10px;
+    line-height: 1.6;
+    padding: 10px 0;
+}
+
+footer {
+    background-color: #f8d9e0; /* Rosa pastel */
+    color: #4a4a4a; /* Gris suave */
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
